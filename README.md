@@ -15,5 +15,5 @@ create table user
 
 
 insert into user values(1, true, 'password', 'ROLE_USER', 'user');
-insert into user values(1, true, 'password', 'ROLE_ADMIN,ROLE_USER', 'admin');
+insert into user values(2, true, 'password', 'ROLE_ADMIN,ROLE_USER', 'admin');
 ```
