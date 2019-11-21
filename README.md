@@ -2,7 +2,7 @@
 
 ## User data
 
-  
+  ```sql
 create table user
 (
 	id int not null
@@ -16,3 +16,4 @@ create table user
 
 insert into user values(1, true, 'password', 'ROLE_USER', 'user');
 insert into user values(1, true, 'password', 'ROLE_ADMIN,ROLE_USER', 'admin');
+```
